@@ -1,0 +1,11 @@
+Temp,Humidity,Rainfall,SoilType,Moisture,Crop,Stage,pH,irrigation_amount,days_until_irrigation
+27.0,65.0,100.0,Loam,0.3,Wheat,Vegetative,6.8,10.0,3
+28.0,67.0,120.0,Clay,0.32,Rice,Flowering,7.0,9.5,2
+29.0,70.0,150.0,Sandy,0.28,Corn,Maturation,7.2,8.0,4
+30.0,72.0,180.0,Loam,0.35,Wheat,Vegetative,6.9,11.0,5
+26.0,63.0,90.0,Clay,0.29,Rice,Flowering,6.7,9.0,2
+25.5,60.0,50.0,Sandy,0.31,Corn,Maturation,6.8,10.5,3
+28.5,68.0,130.0,Loam,0.27,Wheat,Vegetative,7.1,7.0,1
+29.5,73.0,200.0,Clay,0.34,Rice,Flowering,7.2,12.0,4
+27.5,66.0,110.0,Sandy,0.30,Corn,Maturation,6.7,9.8,2
+30.5,75.0,170.0,Loam,0.33,Wheat,Vegetative,7.2,10.2,3
