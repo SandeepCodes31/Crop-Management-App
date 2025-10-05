@@ -1,13 +1,12 @@
-# app.py
 import streamlit as st
 import pandas as pd
 import numpy as np
 import joblib
 import pathlib
 import plotly.graph_objects as go
-from utils import suggest_fertilizer, format_prediction
-from chatbot import get_response
-from train_harvest import train_harvest_model
+from src.utils import suggest_fertilizer, format_prediction
+from src.chatbot import get_response
+from src.train_harvest import train_harvest_model
 
 
 # Custom CSS styles for a green, modern, and attractive UI
@@ -168,7 +167,7 @@ st.markdown(
     unsafe_allow_html=True,
 )
 
-BASE_DIR = pathlib.Path(__file__).parent.parent  # project root
+BASE_DIR = pathlib.Path(__file__).parent  # project root
 MODEL_PATH = BASE_DIR / "models" / "crop_recommendation_model.pkl"
 
 
@@ -491,6 +490,3 @@ with tabs[4]:
         output_placeholder.markdown(
             f'<div class="chatbot-output-box animated">{response}</div>', unsafe_allow_html=True
         )
-
-
-
